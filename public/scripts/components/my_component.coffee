@@ -13,9 +13,6 @@ MyComponent = React.createClass
   getStateFromFlux: ->
     flux = @getFlux()
     {todos: flux.store("TodoStore").getState()}
-  getMyState: ->
-    my_state: null
-
   render: ->
     (d.div {}, [
       (d.video {id: 'v'},[])
