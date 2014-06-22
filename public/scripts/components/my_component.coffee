@@ -1,3 +1,4 @@
+require '../firebase'
 require '../firebase-simple-login'
 Fluxxor = require 'fluxxor'
 React = require 'react'
